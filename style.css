@@ -187,3 +187,31 @@ main{
     text-align: center;
     margin: 50px 0;
 }
+/* footer section start */
+footer{
+    background:#FFF8F3 ;
+}
+.footer-section{
+    display: flex;
+    padding: 130px 230px;
+    gap:115px ;
+
+}
+.footer-content-name{
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+}
+.footer-content-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #474747;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.form-one{
+    padding: 30px auto;
+}
