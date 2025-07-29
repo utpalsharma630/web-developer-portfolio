@@ -56,6 +56,7 @@ nav ul li a{
     font-size: 35px;
     font-weight: 700;
     color: #181818;
+    text-align: center;
 }
 .section-description{
     font-size: 18px;
@@ -154,4 +155,35 @@ main{
     font-size: 16px;
     font-weight: 400;
     color: #757575;
+}
+/* resume section start */
+.resume-container{
+    display: flex;
+    align-items: center;
+    margin-top: 110px;
+    gap: 70px;
+}
+.column-title{
+    font-size: 30px;
+    font-weight: 700;
+    color: #474747;
+}
+.experience-title{
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+}
+.experience-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+}
+.btn{
+    text-align: center;
+    margin: 50px 0;
 }
