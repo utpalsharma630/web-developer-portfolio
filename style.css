@@ -194,8 +194,13 @@ footer{
 .footer-section{
     display: flex;
     padding: 130px 230px;
-    gap:115px ;
+    /* gap: 100px; */
+    justify-content: space-around;
+    
 
+}
+.footer-content{
+    max-width: 550px;
 }
 .footer-content-name{
     font-size: 35px;
@@ -207,11 +212,22 @@ footer{
     font-size: 16px;
     color: #474747;
 }
+.footer-form{
+    max-width: 460px;
+}
 .form{
     display: flex;
     flex-direction: column;
     gap: 24px;
 }
-.form-one{
-    padding: 30px auto;
+footer input[type="text"],footer input[type="email"]{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+    font-size: 16px;
+    
 }
