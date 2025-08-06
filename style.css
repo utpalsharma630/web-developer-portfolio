@@ -231,3 +231,25 @@ footer input[type="text"],footer input[type="email"]{
     font-size: 16px;
     
 }
+/* resposive website */
+.hide{
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+    .project-card,.resume-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-section{
+        flex-direction: column;
+        padding: 20px;
+    }
+     
+     .footer-content, .footer-form{
+        width: 100%;
+     }
+     footer input[type="text"],footer input[type="email"]{
+        width: auto;
+     }
+}
