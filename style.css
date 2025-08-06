@@ -92,7 +92,7 @@ nav ul li a{
     
 }
 .banner-profile-pic{
-    width: 580px;
+    width: 560px;
 }
 /* end of the banner section */
 main{
@@ -138,7 +138,7 @@ main{
 }
 
 .card{
-    width: 260px;
+    /* max-width: 260px; */
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.06);
     background: rgb(255,255,255);
@@ -196,6 +196,7 @@ footer{
     padding: 130px 230px;
     /* gap: 100px; */
     justify-content: space-around;
+    align-items: center;
     
 
 }
@@ -237,16 +238,23 @@ footer input[type="text"],footer input[type="email"]{
 }
 
 @media screen and (max-width:576px) {
-    .project-card,.resume-container{
+    .project-card,.resume-container,
+     .banner,.footer-section,
+    .about, .about-items, nav, nav>ul{
         flex-direction: column;
-        align-items: center;
     }
-    .footer-section{
-        flex-direction: column;
+    header{
+        background-image: none;
+    }
+    .banner,nav{
+        margin: auto;
+    }
+    .footer-section, .about {
+        
         padding: 20px;
     }
      
-     .footer-content, .footer-form{
+     .footer-content, .footer-form,.banner-profile-pic{
         width: 100%;
      }
      footer input[type="text"],footer input[type="email"]{
